@@ -1,0 +1,29 @@
+name: ReSkateForge checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12', '3.14']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m unittest discover -s tests -v
+      # A workspace is made here rather than read from the repository: user
+      # workspaces are private and are never committed.
+      - run: python -m reskateforge doctor
+      - run: python -m reskateforge new Demo_LineHUD --kind plugin --owner ExampleOwner --description "CI smoke plugin" --root ci-workspaces
+      - run: python -m reskateforge validate ci-workspaces/Demo_LineHUD
+      - run: python -m reskateforge package ci-workspaces/Demo_LineHUD --overwrite
+

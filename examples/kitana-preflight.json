@@ -1,0 +1,1645 @@
+{
+  "archive": "20261108223847_McM_Kitana_Mask_-_MK1.zip",
+  "zip_issues": [],
+  "models": [
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/McM_Kitana_Mask_-_MK1.fbx",
+      "size": 13150896,
+      "extension": ".fbx",
+      "fbx": {
+        "format": "binary-fbx",
+        "version": 7400,
+        "bytes": 13150896,
+        "model_count": 922,
+        "geometry_count": 148,
+        "material_count": 0,
+        "deformer_count": 532,
+        "textures_in_fbx": 0,
+        "bone_like_count": 903,
+        "bone_like_nodes": [
+          {
+            "name": "BodyTop",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "p_cf_anim",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Root",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_N_height",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Hips",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kosi01",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kosi01_s",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "N_Waist",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Waist_f",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Waist_b",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Waist_L",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Waist_R",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi01_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi01_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi01_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi01_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Belly_Pivot",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Belly_Mid_High",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Belly_Mid_Low",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Belly_Low",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Belly_Mid",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Belly_High",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kosi02",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kosi02_s",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "GameObject",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_hit_Kosi02_s",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Ana",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_ana_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ana_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ana_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ana_03",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Ana",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Ana_Root",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_Pivot",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Ana_s_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kokan",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_kokan_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kokan_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kokan_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kokan_03",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Kokan",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Vagina_root",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_Inner",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Outer_s_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Inner_s_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_Sides",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_B_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_M_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_M_B_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_F_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_F_R",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_B",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_Pivot_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Vagina_s_F",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Kosi03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Kosi03_s",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi03_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi03_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi03_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi03_03",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi02_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi02_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi02_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_kosi02_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegUp00_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_LegKnee_dam_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_LegKnee_low_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_legkneeL_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_legkneeL_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_legkneeL_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_legkneeL_03",
+            "kind": "Null"
+          },
+          {
+            "name": "N_Knee_L",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegLow01_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_LegLow01_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_leglowL_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_leglowL_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_leglowL_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_leglowL_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegLow03_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_LegLow03_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_ancleL_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ancleL_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ancleL_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_ancleL_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegLowRoll_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Foot01_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Foot02_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes01_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "k_f_toeL_00",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_toeL_01",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_toeL_02",
+            "kind": "Null"
+          },
+          {
+            "name": "k_f_toeL_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Toes_Hallux1_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Hallux2_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Long1_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Long2_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Middle1_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Middle2_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Ring1_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Ring2_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Pinky1_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Toes_Pinky2_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "N_Foot_L",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegLow02_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "N_Ankle_L",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_hit_LegLow02_s_L",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegUp01_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "cf_J_Legsk_root_L",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_00",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_01",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_02",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_04",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_05_05",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_00",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_01",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_02",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_04",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_06_05",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_00",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_01",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_02",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_03",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_04",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_Legsk_07_05",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_J_LegUp01_s_L",
+            "kind": "LimbNode"
+          },
+          {
+            "name": "GameObject",
+            "kind": "Null"
+          },
+          {
+            "name": "cf_hit_LegUp01_s_L",
+            "kind": "Null"
+          }
+        ],
+        "mesh_like_nodes": [
+          {
+            "name": "o_shorts_a",
+            "kind": "Mesh"
+          },
+          {
+            "name": "o_shoes_cmsneak1",
+            "kind": "Mesh"
+          },
+          {
+            "name": "o_gloves_gunte",
+            "kind": "Mesh"
+          },
+          {
+            "name": "o_bra_a",
+            "kind": "Mesh"
+          },
+          {
+            "name": "cf_o_bot_policosSK_d",
+            "kind": "Mesh"
+          },
+          {
+            "name": "cf_top_healer_a",
+            "kind": "Mesh"
+          },
+          {
+            "name": "o_body_cf",
+            "kind": "Mesh"
+          },
+          {
+            "name": "o_tooth",
+            "kind": "Mesh"
+          },
+          {
+            "name": "k00_defo",
+            "kind": "Shape"
+          },
+          {
+            "name": "k01_open0",
+            "kind": "Shape"
+          },
+          {
+            "name": "k02_open1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k03_open2",
+            "kind": "Shape"
+          },
+          {
+            "name": "k04_fera",
+            "kind": "Shape"
+          },
+          {
+            "name": "k05_sitadasi",
+            "kind": "Shape"
+          },
+          {
+            "name": "k06_ahe1",
+            "kind": "Shape"
+          },
+          {
+            "name": "o_tang",
+            "kind": "Mesh"
+          },
+          {
+            "name": "k00_defo",
+            "kind": "Shape"
+          },
+          {
+            "name": "k01_open0",
+            "kind": "Shape"
+          },
+          {
+            "name": "k02_open1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k03_open2",
+            "kind": "Shape"
+          },
+          {
+            "name": "k04_fera",
+            "kind": "Shape"
+          },
+          {
+            "name": "k05_sitadasi1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k06_sitadasi2",
+            "kind": "Shape"
+          },
+          {
+            "name": "k07_sitadasi3",
+            "kind": "Shape"
+          },
+          {
+            "name": "k08_ahe1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k09_ahe2",
+            "kind": "Shape"
+          },
+          {
+            "name": "k10_tehepero",
+            "kind": "Shape"
+          },
+          {
+            "name": "o_namida",
+            "kind": "Mesh"
+          },
+          {
+            "name": "e00_defo",
+            "kind": "Shape"
+          },
+          {
+            "name": "e01_close",
+            "kind": "Shape"
+          },
+          {
+            "name": "e02_close_R",
+            "kind": "Shape"
+          },
+          {
+            "name": "e03_close_L",
+            "kind": "Shape"
+          },
+          {
+            "name": "e04_warai",
+            "kind": "Shape"
+          },
+          {
+            "name": "e04_warai_cl",
+            "kind": "Shape"
+          },
+          {
+            "name": "e05_damage",
+            "kind": "Shape"
+          },
+          {
+            "name": "e06_damage_R",
+            "kind": "Shape"
+          },
+          {
+            "name": "e07_damage_L",
+            "kind": "Shape"
+          },
+          {
+            "name": "e08_odoroki",
+            "kind": "Shape"
+          },
+          {
+            "name": "e09_wink_R",
+            "kind": "Shape"
+          },
+          {
+            "name": "e10_wink_L",
+            "kind": "Shape"
+          },
+          {
+            "name": "e11_wink_cl",
+            "kind": "Shape"
+          },
+          {
+            "name": "e12_wink_half",
+            "kind": "Shape"
+          },
+          {
+            "name": "e13_ikari",
+            "kind": "Shape"
+          },
+          {
+            "name": "e14_ikari_cl",
+            "kind": "Shape"
+          },
+          {
+            "name": "g03_ikari1",
+            "kind": "Shape"
+          },
+          {
+            "name": "g04_ikari2",
+            "kind": "Shape"
+          },
+          {
+            "name": "g05_kanasimi1",
+            "kind": "Shape"
+          },
+          {
+            "name": "g06_kanasimi2",
+            "kind": "Shape"
+          },
+          {
+            "name": "g07_damage",
+            "kind": "Shape"
+          },
+          {
+            "name": "g08_up",
+            "kind": "Shape"
+          },
+          {
+            "name": "g09_up_R",
+            "kind": "Shape"
+          },
+          {
+            "name": "k06_damage",
+            "kind": "Shape"
+          },
+          {
+            "name": "k06_damage_op",
+            "kind": "Shape"
+          },
+          {
+            "name": "k07_rightup",
+            "kind": "Shape"
+          },
+          {
+            "name": "k07_rightup_op",
+            "kind": "Shape"
+          },
+          {
+            "name": "k08_leftup",
+            "kind": "Shape"
+          },
+          {
+            "name": "k08_leftup_op",
+            "kind": "Shape"
+          },
+          {
+            "name": "k11_kiss",
+            "kind": "Shape"
+          },
+          {
+            "name": "k12_fera",
+            "kind": "Shape"
+          },
+          {
+            "name": "k13_sitadasi1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k15_sitadasi3",
+            "kind": "Shape"
+          },
+          {
+            "name": "k16_ahe1",
+            "kind": "Shape"
+          },
+          {
+            "name": "k17_ahe2",
+            "kind": "Shape"
+          },
+          {
+            "name": "k20_u",
+            "kind": "Shape"
+          },
+          {
+            "name": "k22_o",
+            "kind": "Shape"
+          },
+          {
+            "name": "o_head",
+            "kind": "Mesh"
+          },
+          {
+            "name": "e00_defo",
+            "kind": "Shape"
+          },
+          {
+            "name": "e01_close",
+            "kind": "Shape"
+          },
+          {
+            "name": "e02_close_R",
+            "kind": "Shape"
+          },
+          {
+            "name": "e03_close_L",
+            "kind": "Shape"
+          }
+        ],
+        "material_names": [],
+        "geometry_array_elements": {
+          "Vertices": 733608,
+          "PolygonVertexIndex": 669483
+        },
+        "node_count": 20521,
+        "parser_errors": []
+      }
+    }
+  ],
+  "texture_count": 76,
+  "textures": [
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_BumpMap.png",
+      "size": 721230,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_BumpMap_converted.png",
+      "size": 625546,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_ColorMask.png",
+      "size": 5626,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_MainTex.png",
+      "size": 218282,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_Mask_BumpMap.png",
+      "size": 721230,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_Mask_BumpMap_converted.png",
+      "size": 625546,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_Mask_ColorMask.png",
+      "size": 33135,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_Mask_MainTex.png",
+      "size": 218282,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_Mask_MetallicGlossMap.png",
+      "size": 5625,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/acs_M_Head_01_Kitana_MetallicGlossMap.png",
+      "size": 5625,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_BumpMap.png",
+      "size": 77644,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_BumpMap_converted.png",
+      "size": 69435,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_DetailGlossMap.png",
+      "size": 88257,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_DetailMainTex.png",
+      "size": 10310,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_MainTex.png",
+      "size": 64757,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_WeatheringMap.png",
+      "size": 391266,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_shorts_mlace_WeatheringMask.png",
+      "size": 62767,
+      "dimensions": [
+        512,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_BumpMap.png",
+      "size": 5154731,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_BumpMap2.png",
+      "size": 1923538,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_BumpMap2_converted.png",
+      "size": 1633945,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_BumpMap_converted.png",
+      "size": 4344104,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_DetailGlossMap.png",
+      "size": 218403,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_DetailMainTex.png",
+      "size": 717012,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_MainTex.png",
+      "size": 6611908,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_NailMask.png",
+      "size": 33787,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_OcclusionMap.png",
+      "size": 14661994,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_Texture2.png",
+      "size": 99728,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_body_00_Texture3.png",
+      "size": 39230,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_BumpMap.png",
+      "size": 6295678,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_BumpMap_converted.png",
+      "size": 4796594,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_DetailGlossMap.png",
+      "size": 219236,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_DetailMainTex.png",
+      "size": 300607,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_MainTex.png",
+      "size": 3715874,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_NailMask.png",
+      "size": 113972,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_OcclusionMap.png",
+      "size": 984692,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_Texture3.png",
+      "size": 20545,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_WeatheringMap.png",
+      "size": 391266,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cf_m_skin_head_00_WeatheringMask.png",
+      "size": 19805,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_BumpMap.png",
+      "size": 13409102,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_BumpMap_converted.png",
+      "size": 11386546,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_DetailMainTex.png",
+      "size": 1612718,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_MainTex.png",
+      "size": 7702051,
+      "dimensions": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_MetallicGlossMap.png",
+      "size": 10311,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_WeatheringMap.png",
+      "size": 391266,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/cm_m_McM_KitanaOutfMK1_WeatheringMask.png",
+      "size": 16132,
+      "dimensions": [
+        256,
+        128
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eyekage_MainTex.png",
+      "size": 28488,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eyelashes_MainTex.png",
+      "size": 184685,
+      "dimensions": [
+        1024,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_BumpMap.png",
+      "size": 58746,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_BumpMap_converted.png",
+      "size": 52516,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_MainTex.png",
+      "size": 78615,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_namida_MainTex.png",
+      "size": 93090,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_Texture2.png",
+      "size": 64801,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_Texture3.png",
+      "size": 54833,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_eye_Texture4.png",
+      "size": 23260,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_liquid_body_WeatheringMap.png",
+      "size": 391266,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_liquid_body_WeatheringMask.png",
+      "size": 175264,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_BumpMap.png",
+      "size": 124240,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_BumpMap_converted.png",
+      "size": 107133,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_DetailGlossMap.png",
+      "size": 365753,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_MainTex.png",
+      "size": 36469,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_MatcapTexture.png",
+      "size": 4667,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tang_OcclusionMap.png",
+      "size": 23389,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tooth_BumpMap.png",
+      "size": 28020,
+      "dimensions": [
+        256,
+        128
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tooth_BumpMap_converted.png",
+      "size": 23955,
+      "dimensions": [
+        256,
+        128
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tooth_MainTex.png",
+      "size": 32671,
+      "dimensions": [
+        256,
+        128
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tooth_MatcapTexture.png",
+      "size": 4667,
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/c_m_tooth_OcclusionMap.png",
+      "size": 31189,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_BumpMap.png",
+      "size": 1929161,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_BumpMap_converted.png",
+      "size": 1686261,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_ColorMask.png",
+      "size": 152132,
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_DetailMask.png",
+      "size": 41145,
+      "dimensions": [
+        128,
+        128
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_MainTex.png",
+      "size": 3111588,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_01_Occlusion.png",
+      "size": 920864,
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_acs_BumpMap.png",
+      "size": 118446,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_acs_BumpMap_converted.png",
+      "size": 101197,
+      "dimensions": [
+        512,
+        512
+      ]
+    },
+    {
+      "path": "20261108223847_McM_Kitana_Mask_-_MK1/Textures/hair_material_b_16_acs_MainTex.png",
+      "size": 59116,
+      "dimensions": [
+        512,
+        512
+      ]
+    }
+  ],
+  "total_uncompressed_bytes": 114027861
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+workspaces/
+*.fbproject
+*.fbmod
+*.blend1
+*.blend2
+ReSkate Studio/
+local-config/
+ci-workspaces/

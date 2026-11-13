@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reskateforge"
+version = "0.2.0"
+description = "AI-first ReSkate mod workbench, archive inspector, validators and Thunderstore packaging"
+requires-python = ">=3.10"
+authors = [{name = "GennyWoo"}]
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+reskateforge = "reskateforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["reskateforge*"]
+

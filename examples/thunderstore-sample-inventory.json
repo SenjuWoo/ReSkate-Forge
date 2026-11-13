@@ -1,0 +1,1460 @@
+{
+  "parts": [
+    "Mods.zip(2).001",
+    "Mods.zip(2).002",
+    "Mods.zip.003",
+    "Mods.zip.004"
+  ],
+  "part_sizes": [
+    524288000,
+    524288000,
+    524288000,
+    312253061
+  ],
+  "entries": 922,
+  "uncompressed_bytes": 2666285679,
+  "extensions": {
+    "[none]": 49,
+    ".md": 41,
+    ".png": 211,
+    ".json": 55,
+    ".bak-before-chevrons": 1,
+    ".toc": 97,
+    ".lua": 152,
+    ".cas": 34,
+    ".txt": 2,
+    ".wav": 3,
+    ".pyw": 1,
+    ".fas": 21
+  },
+  "zip_issues": [],
+  "mod_count": 27,
+  "mods": [
+    {
+      "folder": "333-Skate_3_Improved",
+      "manifest": {
+        "name": "Skate_3_Improved",
+        "author": "noah",
+        "version_number": "1.2.2",
+        "description": "An improved Skate 3 map for ReSkate with original geometry, DLC maps, original decals and material-based surface sounds",
+        "website_url": "",
+        "dependencies": []
+      },
+      "kinds": [
+        "plugin",
+        "map",
+        "game-data"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "camera",
+          "console",
+          "overlay",
+          "menu",
+          "storage",
+          "throwdowns",
+          "events.skater",
+          "input",
+          "ui.screen",
+          "skater.read",
+          "skater.control",
+          "skater.teleport",
+          "world.raycast",
+          "world.entities",
+          "session.read",
+          "net.session",
+          "chat.local",
+          "audio.ui"
+        ]
+      },
+      "map_titles": [
+        "Skate3Improved"
+      ],
+      "has_build_stamp": true,
+      "entries": 136,
+      "uncompressed_bytes": 1296888802,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "data",
+        "data/previews",
+        "data/previews/bowl_cradle_m.png",
+        "data/previews/bowl_cradle_s.png",
+        "data/previews/bowl_crin_l.png",
+        "data/previews/bowl_crin_m.png",
+        "data/previews/bowl_crin_s.png",
+        "data/previews/bowl_crout_l.png",
+        "data/previews/bowl_crout_m.png",
+        "data/previews/bowl_crout_s.png",
+        "data/previews/bowl_floor_l.png",
+        "data/previews/bowl_floor_la.png",
+        "data/previews/bowl_floor_ls.png",
+        "data/previews/bowl_floor_m.png",
+        "data/previews/bowl_floor_ma.png",
+        "data/previews/bowl_floor_ml.png",
+        "data/previews/bowl_floor_mlci.png",
+        "data/previews/bowl_floor_mlco.png",
+        "data/previews/bowl_floor_mls.png",
+        "data/previews/bowl_floor_ms.png",
+        "data/previews/bowl_floor_s.png",
+        "data/previews/bowl_floor_sa.png",
+        "data/previews/bowl_floor_sc45.png",
+        "data/previews/bowl_floor_sp.png",
+        "data/previews/bowl_floor_ss.png",
+        "data/previews/bowl_pipe_l.png",
+        "data/previews/bowl_pipe_m.png",
+        "data/previews/bowl_pipe_s.png",
+        "data/previews/bowl_str_l.png",
+        "data/previews/bowl_str_ls.png",
+        "data/previews/bowl_str_m.png",
+        "data/previews/bowl_str_ml.png",
+        "data/previews/bowl_str_mlf.png",
+        "data/previews/bowl_str_ms.png",
+        "data/previews/bowl_str_s.png",
+        "data/previews/bowl_str_sm.png",
+        "data/previews/bowl_str_smf.png",
+        "data/previews/bowl_str_ss.png",
+        "data/previews/hip_hi.png",
+        "data/previews/hip_lo.png",
+        "data/previews/hip_med.png",
+        "data/previews/kick_1m.png",
+        "data/previews/kick_2m.png",
+        "data/previews/kick_2mw.png",
+        "data/previews/kick_clo.png",
+        "data/previews/kick_curved_m.png",
+        "data/previews/kick_hi.png",
+        "data/previews/kick_lo.png",
+        "data/previews/kick_med.png",
+        "data/previews/ledge_high.png",
+        "data/previews/ledge_low.png",
+        "data/previews/ledge_med.png",
+        "data/previews/ledge_straight.png",
+        "data/previews/monkey_bar.png",
+        "data/previews/pad_flat.png",
+        "data/previews/pad_hi.png",
+        "data/previews/pad_lo.png",
+        "data/previews/pad_med.png"
+      ]
+    },
+    {
+      "folder": "Aronixe-InfinitePark",
+      "manifest": {
+        "name": "InfinitePark",
+        "version_number": "1.2.0",
+        "website_url": "",
+        "description": "An endless procedural skatepark that builds itself as you ride, now with the 2000 m Colossus Spire: roller coaster lines, loops and an 8 km waterslide from its summit. Plus a 230 m helter skelter, Great Pyramid, mega ramps and loops",
+        "dependencies": [],
+        "author": "Aronixe"
+      },
+      "kinds": [
+        "plugin",
+        "map",
+        "game-data"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "console",
+          "storage",
+          "files",
+          "overlay",
+          "skater.read",
+          "skater.teleport",
+          "skater.control",
+          "world.raycast",
+          "world.entities"
+        ]
+      },
+      "map_titles": [
+        "Infinite Park"
+      ],
+      "has_build_stamp": true,
+      "entries": 37,
+      "uncompressed_bytes": 142225095,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "plugin",
+        "plugin/floor.lua",
+        "plugin/generator.lua",
+        "plugin/kitdata.lua",
+        "plugin/lifts.lua",
+        "plugin/main.lua",
+        "plugin/modules.lua",
+        "plugin/park.lua",
+        "plugin/pieces.lua",
+        "plugin/records.lua",
+        "plugin/rider.lua",
+        "plugin/streamer.lua",
+        "plugin/util.lua",
+        "plugin/zones.lua",
+        "README.md",
+        "reskate-levels.json",
+        "reskate-plugin.json",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/defaultinstallpackage",
+        "Win32/configurations/layout/defaultinstallpackage/cas_01.cas",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/globals.toc",
+        "Win32/levels",
+        "Win32/levels/game",
+        "Win32/levels/game/dingolevel_root",
+        "Win32/levels/game/dingolevel_root/dingolevel_root.toc",
+        "Win32/levels/game/infinitepark",
+        "Win32/levels/game/infinitepark/infinitepark.toc"
+      ]
+    },
+    {
+      "folder": "BeanCarriedINC-Beans_Bone_Fucker_NEW",
+      "manifest": {
+        "name": "Beans_Bone_Fucker_NEW",
+        "version_number": "1.2.1",
+        "website_url": "",
+        "description": "Real-time SS Bone Manipulation tool. Updated to the latest ReSkate version.",
+        "dependencies": [],
+        "author": "bean"
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "menu",
+          "skater.animation",
+          "storage"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 6,
+      "uncompressed_bytes": 193724,
+      "sample_files": [
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/main.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "ChocsTeam-Weather_Studio",
+      "manifest": {
+        "author": "ChocsTeam",
+        "dependencies": [],
+        "description": "Live weather presets, independent sunlight and shadow controls, and cosmetic rain for ReSkate.",
+        "name": "Weather_Studio",
+        "version_number": "1.4.2",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "menu",
+          "storage",
+          "world.environment",
+          "settings.read",
+          "settings.write",
+          "overlay",
+          "skater.read",
+          "world.raycast",
+          "ui.screen",
+          "input"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 8,
+      "uncompressed_bytes": 49321,
+      "sample_files": [
+        "CHANGELOG.md",
+        "icon.png",
+        "LICENSE.txt",
+        "manifest.json",
+        "plugin",
+        "plugin/main.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "Doorcity-Piracy_Cosmetic_Pack",
+      "manifest": {
+        "author": "Doorcity",
+        "dependencies": [],
+        "description": "Reskate clothing pack: 23 t-shirts and a hoodie featuring iconic piracy and file-sharing logos from The Pirate Bay, FitGirl Repacks, Soulseek, RARBG, LimeWire, Napster, Codex, YTS and more.",
+        "name": "Piracy_Cosmetic_Pack",
+        "version_number": "1.1.1",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 13,
+      "uncompressed_bytes": 14179529,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/globals.toc",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Extilo-Cropped_Hoodie_Collection",
+      "manifest": {
+        "author": "Extilo",
+        "dependencies": [],
+        "description": "A hoodie version of the tight crop top, for skate girlies and boys and everyone else who wants to feel a little sexy and mysterious ast the same time. Available in six different colors. The drawstrings are tied up because physics are a b-tch.",
+        "name": "Cropped_Hoodie_Collection",
+        "version_number": "1.0.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 9664103,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Extilo-Denim_Shorts_Collection",
+      "manifest": {
+        "author": "Extilo",
+        "dependencies": [],
+        "description": "Shorter shorts! A collection of hot pants-adjacent denim shorts, inspired by Nudie jeans. Keywords: feminine, fashion, girl, woman, hot sexy hunky 80's beach bum dude with perfect butt.",
+        "name": "Denim_Shorts_Collection",
+        "version_number": "1.1.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 9126033,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Extilo-Miniskirt_Pack",
+      "manifest": {
+        "author": "Extilo",
+        "dependencies": [],
+        "description": "Skate like a girl! The vanilla skirts can feel a tad long. These don't. An assortment of stylish, cute and sexy skirts that don't impede movement. This is the default version, featuring panties. 'Commando Edition' available for users of my Thong Mod.",
+        "name": "Miniskirt_Pack",
+        "version_number": "1.0.3",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 10504952,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Extilo-Miniskirt_Pack_Commando_Edition",
+      "manifest": {
+        "author": "Extilo",
+        "dependencies": [],
+        "description": "Skate like a girl! The vanilla skirts can feel a tad long. These don't. An assortment of stylish, cute and sexy skirts that don't impede movement. This is the 'commando' version without included panties, perfect to use alongside my Thong Mod.",
+        "name": "Miniskirt_Pack_Commando_Edition",
+        "version_number": "1.0.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 11317083,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "FedoraWaifu-Waifus_CameraFX",
+      "manifest": {
+        "author": "FedoraWaifu",
+        "dependencies": [],
+        "description": "Customizable gameplay post-processing for ReSkate, with VX-style video effects, color overlays, lens options, and saved presets.",
+        "name": "Waifus_CameraFX",
+        "version_number": "1.0.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "overlay",
+          "ui.screen",
+          "menu",
+          "storage",
+          "input",
+          "hud"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 6,
+      "uncompressed_bytes": 129856,
+      "sample_files": [
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/main.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "Female_Stockings-Stockings_Pack",
+      "manifest": {
+        "name": "Stockings_Pack",
+        "author": "Fourth Studio",
+        "version_number": "1.1.0",
+        "website_url": "",
+        "description": "13 thigh-high stocking designs: nylon, fishnets, flames, skulls, stars, rhinestones, polka dots, hearts, lace, cut-outs and spider webs.",
+        "dependencies": []
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 17915931,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Fourth_Studio-Road_Rash",
+      "manifest": {
+        "name": "Road_Rash",
+        "author": "Fourth Studio",
+        "version_number": "1.1.0",
+        "website_url": "",
+        "description": "Road Rash for ReSkate: bails leave dust, scrapes, bruises and raw wounds that build up as you slam, and an injury report to see them: your skater's marks, every stage, six themes. 45 skin items in 3 designs, with or without blood.",
+        "dependencies": []
+      },
+      "kinds": [
+        "plugin",
+        "game-data"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "events.skater",
+          "outfit",
+          "storage",
+          "menu",
+          "console",
+          "overlay",
+          "ui.screen",
+          "input",
+          "audio.ui"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 36,
+      "uncompressed_bytes": 40495360,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "plugin",
+        "plugin/main.lua",
+        "plugin/rules.lua",
+        "plugin/showcase.lua",
+        "plugin/tests.lua",
+        "plugin/themes.lua",
+        "README.md",
+        "reskate-plugin.json",
+        "ui",
+        "ui/marks.png",
+        "ui/theme_asphalt.png",
+        "ui/theme_bloodbank.png",
+        "ui/theme_er.png",
+        "ui/theme_firstaid.png",
+        "ui/theme_surgery.png",
+        "ui/theme_xray.png",
+        "ui/wounds_arm_a.png",
+        "ui/wounds_arm_b.png",
+        "ui/wounds_arm_c.png",
+        "ui/wounds_face_a.png",
+        "ui/wounds_face_b.png",
+        "ui/wounds_face_c.png",
+        "ui/wounds_leg_a.png",
+        "ui/wounds_leg_b.png",
+        "ui/wounds_leg_c.png",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "HarryBrazzers-Leveling_System",
+      "manifest": {
+        "author": "HarryBrazzers",
+        "dependencies": [],
+        "description": "Old-school levels and prestige for every map: XP from tricks, 6 ranks to level 55, 10 prestiges, Max Prestige to 1000. Real trick names, 60+ challenges, sounds, camos, pinned goals, leaderboard and a custom HUD.",
+        "name": "Leveling_System",
+        "version_number": "1.2.3",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "overlay",
+          "menu",
+          "ui.screen",
+          "console",
+          "storage",
+          "files",
+          "events.tricks",
+          "events.skater",
+          "skater.read",
+          "skater.animation",
+          "board",
+          "audio",
+          "audio.ui",
+          "session.read",
+          "session.nametags",
+          "net.session",
+          "chat.local"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 40,
+      "uncompressed_bytes": 2149367,
+      "sample_files": [
+        "CHANGELOG.md",
+        "custom_sounds",
+        "custom_sounds/README.txt",
+        "emblems",
+        "emblems/prestige_1.png",
+        "emblems/prestige_10.png",
+        "emblems/prestige_2.png",
+        "emblems/prestige_3.png",
+        "emblems/prestige_4.png",
+        "emblems/prestige_5.png",
+        "emblems/prestige_6.png",
+        "emblems/prestige_7.png",
+        "emblems/prestige_8.png",
+        "emblems/prestige_9.png",
+        "emblems/prestige_max.png",
+        "emblems/rank_hof.png",
+        "emblems/rank_legend.png",
+        "emblems/rank_local.png",
+        "emblems/rank_pro.png",
+        "emblems/rank_rookie.png",
+        "emblems/rank_sponsored.png",
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/browser.lua",
+        "plugin/cal.lua",
+        "plugin/core.lua",
+        "plugin/defs.lua",
+        "plugin/detect.lua",
+        "plugin/hud.lua",
+        "plugin/main.lua",
+        "plugin/page.lua",
+        "plugin/sound.lua",
+        "plugin/unlocks.lua",
+        "README.md",
+        "reskate-plugin.json",
+        "sounds",
+        "sounds/challenge.wav",
+        "sounds/level_up.wav",
+        "sounds/prestige.wav"
+      ]
+    },
+    {
+      "folder": "Klepto-KleptosSkateshop",
+      "manifest": {
+        "name": "KleptosSkateshop",
+        "version_number": "2.1.0",
+        "website_url": "",
+        "description": "Adds quite a few (180+) CAS Items. Apart from the decks, it's mostly pretty bland stuff with flat colors. There is a little bit of everything in here.",
+        "dependencies": [],
+        "author": "Klepto"
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 229143679,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "MysteriousMagexX-Skate_Shop_Girls_100",
+      "manifest": {
+        "name": "Skate_Shop_Girls_100",
+        "author": "MysteriousMagexX",
+        "version_number": "1.0.2",
+        "website_url": "",
+        "description": "100 real women's skate-shop clothing colourways from 11 brands. Tops, skirts, bike shorts and dresses.",
+        "dependencies": [],
+        "categories": [
+          "Cosmetics"
+        ]
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 15,
+      "uncompressed_bytes": 137016226,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "clothing-sheet.png",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "SOURCES.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "MysteriousMagexX-Skate_Shop_Girls_100_Vol_2",
+      "manifest": {
+        "name": "Skate_Shop_Girls_100_Vol_2",
+        "author": "MysteriousMagexX",
+        "version_number": "1.0.0",
+        "website_url": "",
+        "description": "100 new women's clothing styles from 10 skate-shop brands: tees, tanks, camis, pullovers and bottoms.",
+        "dependencies": [],
+        "categories": [
+          "Cosmetics"
+        ]
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 15,
+      "uncompressed_bytes": 135850537,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "clothing-sheet.png",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "SOURCES.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "Ninel-Absorb_and_Balance",
+      "manifest": {
+        "author": "Ninel",
+        "dependencies": [],
+        "description": "Feel the weight of every landing. Clean rollaways, dozens of procedural Sketchy reactions including one-foot saves, and visible weight shifts in grinds and manuals.",
+        "name": "Absorb_and_Balance",
+        "version_number": "1.3.87",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "overlay",
+          "menu",
+          "input",
+          "hud",
+          "console",
+          "storage",
+          "events.skater",
+          "events.tricks",
+          "skater.read",
+          "skater.control",
+          "skater.animation",
+          "world.raycast",
+          "input.write",
+          "files",
+          "settings.write",
+          "mods.read"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 61,
+      "uncompressed_bytes": 345290,
+      "sample_files": [
+        "CHANGELOG.md",
+        "FONT-CREDITS.md",
+        "icon.png",
+        "images",
+        "images/caption_1.png",
+        "images/caption_2.png",
+        "images/caption_3.png",
+        "images/cat_bg_1.png",
+        "images/cat_bg_2.png",
+        "images/cat_bg_3.png",
+        "images/cat_bg_4.png",
+        "images/cat_bg_5.png",
+        "images/cat_bg_6.png",
+        "images/verdict_ink_clean.png",
+        "images/verdict_ink_no_absorb.png",
+        "images/verdict_ink_sketchy.png",
+        "images/verdict_ink_too_early.png",
+        "images/verdict_ink_too_high.png",
+        "manifest.json",
+        "plugin",
+        "plugin/arm_clearance.lua",
+        "plugin/balance_controls.lua",
+        "plugin/board_setup.lua",
+        "plugin/board_tilt.lua",
+        "plugin/body.lua",
+        "plugin/circle_hud.lua",
+        "plugin/clean_landing.lua",
+        "plugin/config.lua",
+        "plugin/drops.lua",
+        "plugin/events.lua",
+        "plugin/falls.lua",
+        "plugin/grades.lua",
+        "plugin/grind.lua",
+        "plugin/grind_contact.lua",
+        "plugin/haptics.lua",
+        "plugin/hud.lua",
+        "plugin/i18n.lua",
+        "plugin/leg_recovery.lua",
+        "plugin/lifecycle.lua",
+        "plugin/loop.lua",
+        "plugin/main.lua",
+        "plugin/manual.lua",
+        "plugin/manual_recovery.lua",
+        "plugin/menu.lua",
+        "plugin/native_landing.lua",
+        "plugin/needle.lua",
+        "plugin/plugin_page.lua",
+        "plugin/pose.lua",
+        "plugin/preferences.lua",
+        "plugin/presets.lua",
+        "plugin/recovery_arms.lua",
+        "plugin/recovery_profiles.lua",
+        "plugin/recovery_response.lua",
+        "plugin/shared.lua",
+        "plugin/sketchy.lua",
+        "plugin/stance.lua",
+        "plugin/tuning.lua",
+        "README.md",
+        "reskate-plugin.json",
+        "tools"
+      ]
+    },
+    {
+      "folder": "Ninel-All_Bodies_Are_Beautiful",
+      "manifest": {
+        "author": "Ninel",
+        "dependencies": [],
+        "description": "Reshape your skater all the way to the absurd: fun presets, size of every body part, poses, 70+ effects, shapes and fractals, board size. Anti-grief limits on servers you do not host.",
+        "name": "All_Bodies_Are_Beautiful",
+        "version_number": "2.13.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "skater.read",
+          "skater.animation",
+          "input",
+          "menu",
+          "storage",
+          "console",
+          "board",
+          "camera",
+          "events.skater",
+          "events.tricks",
+          "session.read",
+          "session.skaters",
+          "net.session"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 42,
+      "uncompressed_bytes": 1585562,
+      "sample_files": [
+        "CHANGELOG.md",
+        "clips",
+        "clips/breakdance_1990.fas",
+        "clips/drunk_walk.fas",
+        "clips/female_standing_pose.fas",
+        "clips/hip_hop_dancing.fas",
+        "clips/horse_dance.fas",
+        "clips/kiss.fas",
+        "clips/poses",
+        "clips/poses/bolt.fas",
+        "clips/poses/crossed.fas",
+        "clips/poses/dab.fas",
+        "clips/poses/flamingo.fas",
+        "clips/poses/head.fas",
+        "clips/poses/hero.fas",
+        "clips/poses/muscles.fas",
+        "clips/poses/prayer.fas",
+        "clips/poses/salute.fas",
+        "clips/poses/splits.fas",
+        "clips/poses/squat.fas",
+        "clips/poses/tpose.fas",
+        "clips/poses/trex.fas",
+        "clips/poses/victory.fas",
+        "clips/poses/zombie.fas",
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/eyes.lua",
+        "plugin/main.lua",
+        "plugin/mod_arc.lua",
+        "plugin/mod_corps.lua",
+        "plugin/mod_effets.lua",
+        "plugin/mod_emotes.lua",
+        "plugin/mod_formes.lua",
+        "plugin/mod_planche.lua",
+        "plugin/mod_poses.lua",
+        "plugin/mod_roulette.lua",
+        "plugin/mod_taille.lua",
+        "plugin/mod_tete.lua",
+        "plugin/quat.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "PuppyBimbo-Puppy_Girl_Theme",
+      "manifest": {
+        "author": "PuppyBimbo",
+        "dependencies": [],
+        "description": "A pack of puppy girl themed stuff.",
+        "name": "Puppy_Girl_Theme",
+        "version_number": "2.0.3",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 64321037,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "ReShakal-Immersion_CleanView",
+      "manifest": {
+        "name": "Immersion_CleanView",
+        "author": "ReShakal",
+        "version_number": "1.0.5",
+        "website_url": "",
+        "description": "Skate with a clean screen: hide the interaction prompts and button icons, the music source animation, the song title banner and the Quick Drop outline. Set from the ReSkate menu, in English, French, German or Spanish.",
+        "dependencies": []
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "console",
+          "hud",
+          "menu",
+          "settings.read",
+          "settings.write",
+          "skater.read",
+          "storage",
+          "variants"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 235,
+      "uncompressed_bytes": 484770296,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/main.lua",
+        "plugin/strings.lua",
+        "README.md",
+        "reskate-build.json",
+        "reskate-plugin.json",
+        "variantes",
+        "variantes/v000",
+        "variantes/v000/.reskate-studio-patch",
+        "variantes/v000/initfs_win32",
+        "variantes/v000/layout.toc",
+        "variantes/v000/reskate-build.json",
+        "variantes/v000/Win32",
+        "variantes/v000/Win32/configurations",
+        "variantes/v000/Win32/configurations/layout",
+        "variantes/v000/Win32/configurations/layout/defaultinstallpackage",
+        "variantes/v000/Win32/configurations/layout/defaultinstallpackage/cas_01.cas",
+        "variantes/v000/Win32/configurations/layout/initialinstallpackage",
+        "variantes/v000/Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "variantes/v000/Win32/levels",
+        "variantes/v000/Win32/levels/game",
+        "variantes/v000/Win32/levels/game/bam_levelroot",
+        "variantes/v000/Win32/levels/game/bam_levelroot/bam_levelroot.toc",
+        "variantes/v000/Win32/levels/game/dingolevel_ftue_island",
+        "variantes/v000/Win32/levels/game/dingolevel_ftue_island/dingolevel_ftue_island.toc",
+        "variantes/v000/Win32/levels/game/dingolevel_isle_of_grom",
+        "variantes/v000/Win32/levels/game/dingolevel_isle_of_grom/dingolevel_isle_of_grom.toc",
+        "variantes/v000/Win32/levels/game/dingolevel_mpr",
+        "variantes/v000/Win32/levels/game/dingolevel_mpr/dingolevel_mpr.toc",
+        "variantes/v000/Win32/levels/game/dingolevel_sdm",
+        "variantes/v000/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_001",
+        "variantes/v000/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_001/dingolevel_sdm_int_001.toc",
+        "variantes/v000/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_002",
+        "variantes/v000/Win32/levels/game/dingolevel_sdm/dingolevel_sdm_int_002/dingolevel_sdm_int_002.toc",
+        "variantes/v001",
+        "variantes/v001/.reskate-studio-patch",
+        "variantes/v001/initfs_win32",
+        "variantes/v001/layout.toc",
+        "variantes/v001/reskate-build.json",
+        "variantes/v001/Win32",
+        "variantes/v001/Win32/configurations",
+        "variantes/v001/Win32/configurations/layout",
+        "variantes/v001/Win32/configurations/layout/defaultinstallpackage",
+        "variantes/v001/Win32/configurations/layout/defaultinstallpackage/cas_01.cas",
+        "variantes/v001/Win32/configurations/layout/initialinstallpackage",
+        "variantes/v001/Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "variantes/v001/Win32/levels",
+        "variantes/v001/Win32/levels/game",
+        "variantes/v001/Win32/levels/game/bam_levelroot",
+        "variantes/v001/Win32/levels/game/bam_levelroot/bam_levelroot.toc",
+        "variantes/v001/Win32/levels/game/dingolevel_ftue_island",
+        "variantes/v001/Win32/levels/game/dingolevel_ftue_island/dingolevel_ftue_island.toc",
+        "variantes/v001/Win32/levels/game/dingolevel_isle_of_grom",
+        "variantes/v001/Win32/levels/game/dingolevel_isle_of_grom/dingolevel_isle_of_grom.toc",
+        "variantes/v001/Win32/levels/game/dingolevel_mpr",
+        "variantes/v001/Win32/levels/game/dingolevel_mpr/dingolevel_mpr.toc"
+      ]
+    },
+    {
+      "folder": "ShuvIT-Veronica_ElementGothGirlGrip",
+      "manifest": {
+        "author": "Veronica",
+        "dependencies": [],
+        "description": "Custom Element Grip Tape Art by Veronica",
+        "name": "Veronica_ElementGothGirlGrip",
+        "version_number": "1.0.1",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 9289002,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    },
+    {
+      "folder": "ZtupidModZ-Realistic_Progression",
+      "manifest": {
+        "author": "ZtupidModZ",
+        "dependencies": [],
+        "description": "DEMO: Offline trick lessons, sponsor careers and shoot challenges. Complete lessons or skip straight to sponsors.",
+        "name": "Realistic_Progression",
+        "version_number": "0.5.64",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "events.tricks",
+          "events.skater",
+          "skater.read",
+          "skater.animation",
+          "skater.control",
+          "storage",
+          "menu",
+          "overlay",
+          "session.read",
+          "input",
+          "world.raycast",
+          "console",
+          "ui.screen",
+          "audio"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 70,
+      "uncompressed_bytes": 4685514,
+      "sample_files": [
+        "CHANGELOG.md",
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/action_feed.lua",
+        "plugin/action_names.lua",
+        "plugin/assets",
+        "plugin/assets/preview_enuff_01.png",
+        "plugin/assets/preview_enuff_02.png",
+        "plugin/assets/preview_enuff_03.png",
+        "plugin/assets/preview_enuff_04.png",
+        "plugin/assets/preview_hydroponic_01.png",
+        "plugin/assets/preview_hydroponic_02.png",
+        "plugin/assets/preview_hydroponic_03.png",
+        "plugin/assets/preview_hydroponic_04.png",
+        "plugin/assets/preview_mini_logo_01.png",
+        "plugin/assets/preview_mini_logo_02.png",
+        "plugin/assets/preview_mini_logo_03.png",
+        "plugin/assets/preview_mini_logo_04.png",
+        "plugin/assets/skatepedia_1.png",
+        "plugin/assets/skatepedia_10.png",
+        "plugin/assets/skatepedia_11.png",
+        "plugin/assets/skatepedia_12.png",
+        "plugin/assets/skatepedia_13.png",
+        "plugin/assets/skatepedia_14.png",
+        "plugin/assets/skatepedia_15.png",
+        "plugin/assets/skatepedia_2.png",
+        "plugin/assets/skatepedia_3.png",
+        "plugin/assets/skatepedia_4.png",
+        "plugin/assets/skatepedia_5.png",
+        "plugin/assets/skatepedia_6.png",
+        "plugin/assets/skatepedia_7.png",
+        "plugin/assets/skatepedia_8.png",
+        "plugin/assets/skatepedia_9.png",
+        "plugin/assets/sponsor_enuff.png",
+        "plugin/assets/sponsor_hydroponic.png",
+        "plugin/assets/sponsor_mini_logo.png",
+        "plugin/bootstrap.lua",
+        "plugin/career_hud.lua",
+        "plugin/changelog.lua",
+        "plugin/control.lua",
+        "plugin/curriculum.lua",
+        "plugin/dev_lessons.lua",
+        "plugin/flip_names.lua",
+        "plugin/hud.lua",
+        "plugin/lessons.lua",
+        "plugin/lesson_help.lua",
+        "plugin/lesson_help_data.lua",
+        "plugin/lesson_help_icons.lua",
+        "plugin/lesson_menu.lua",
+        "plugin/lesson_skip.lua",
+        "plugin/main.lua",
+        "plugin/plant_probe.lua",
+        "plugin/player.lua",
+        "plugin/progress_metrics.lua",
+        "plugin/rail_feed.lua",
+        "plugin/rules.lua",
+        "plugin/score_feed.lua",
+        "plugin/skatepedia_data.lua",
+        "plugin/sponsors.lua"
+      ]
+    },
+    {
+      "folder": "ZtupidModZ-Sponsorship_Progression_Challenges",
+      "manifest": {
+        "author": "ZtupidModZ",
+        "dependencies": [
+          "ZtupidModZ-Sponsorship_Progression_Core-0.6.4"
+        ],
+        "description": "Photo and video shoot challenge rules, timers, tiers and HUD for Sponsorship Progression Core.",
+        "name": "Sponsorship_Progression_Challenges",
+        "version_number": "0.6.4",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "overlay",
+          "input",
+          "throwdowns"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 13,
+      "uncompressed_bytes": 36704,
+      "sample_files": [
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/assets",
+        "plugin/assets/native_y.png",
+        "plugin/assignments.lua",
+        "plugin/bootstrap.lua",
+        "plugin/challenge_engine.lua",
+        "plugin/challenge_hud.lua",
+        "plugin/shoot_flag.lua",
+        "plugin/shoot_zone.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "ZtupidModZ-Sponsorship_Progression_Core",
+      "manifest": {
+        "author": "ZtupidModZ",
+        "dependencies": [],
+        "description": "Shared sponsor saves, game observations, expansion registration and validated board rewards.",
+        "name": "Sponsorship_Progression_Core",
+        "version_number": "0.6.4",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "storage",
+          "events.tricks",
+          "events.skater",
+          "skater.read",
+          "session.read",
+          "input",
+          "console",
+          "throwdowns"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 9,
+      "uncompressed_bytes": 38088,
+      "sample_files": [
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/bootstrap.lua",
+        "plugin/community_sales.lua",
+        "plugin/core_service.lua",
+        "plugin/sponsor_career.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "ZtupidModZ-Sponsorship_Progression_Sponsors",
+      "manifest": {
+        "author": "ZtupidModZ",
+        "dependencies": [
+          "ZtupidModZ-Sponsorship_Progression_Core-0.6.4",
+          "ZtupidModZ-Sponsorship_Progression_Challenges-0.6.4"
+        ],
+        "description": "Sponsor brands, contracts, hover previews and career HUD. Requires Core and Sponsorship Challenges.",
+        "name": "Sponsorship_Progression_Sponsors",
+        "version_number": "0.6.4",
+        "website_url": ""
+      },
+      "kinds": [
+        "plugin"
+      ],
+      "plugin": {
+        "api": 1,
+        "side": "client",
+        "permissions": [
+          "menu",
+          "overlay",
+          "ui.screen",
+          "input"
+        ]
+      },
+      "map_titles": [],
+      "has_build_stamp": false,
+      "entries": 30,
+      "uncompressed_bytes": 3170993,
+      "sample_files": [
+        "icon.png",
+        "manifest.json",
+        "plugin",
+        "plugin/assets",
+        "plugin/assets/preview_enuff_01.png",
+        "plugin/assets/preview_enuff_02.png",
+        "plugin/assets/preview_enuff_03.png",
+        "plugin/assets/preview_enuff_04.png",
+        "plugin/assets/preview_hydroponic_01.png",
+        "plugin/assets/preview_hydroponic_02.png",
+        "plugin/assets/preview_hydroponic_03.png",
+        "plugin/assets/preview_hydroponic_04.png",
+        "plugin/assets/preview_mini_logo_01.png",
+        "plugin/assets/preview_mini_logo_02.png",
+        "plugin/assets/preview_mini_logo_03.png",
+        "plugin/assets/preview_mini_logo_04.png",
+        "plugin/assets/sponsor_enuff.png",
+        "plugin/assets/sponsor_hydroponic.png",
+        "plugin/assets/sponsor_mini_logo.png",
+        "plugin/bootstrap.lua",
+        "plugin/cards.lua",
+        "plugin/card_model.lua",
+        "plugin/changelog.lua",
+        "plugin/core_client.lua",
+        "plugin/pack.lua",
+        "plugin/sponsor_hud.lua",
+        "plugin/sponsor_preview.lua",
+        "plugin/welcome.lua",
+        "README.md",
+        "reskate-plugin.json"
+      ]
+    },
+    {
+      "folder": "inferneau-AmbienceVolume",
+      "manifest": {
+        "author": "inferno",
+        "name": "AmbienceVolume",
+        "version_number": "1.0.0",
+        "website_url": "",
+        "description": "Quality of life - Mute or adjust the volume of pedestrians, traffic and city background noise",
+        "dependencies": []
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 13,
+      "uncompressed_bytes": 2591900,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "CHANGELOG.md",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/globals.toc"
+      ]
+    },
+    {
+      "folder": "snowgrave-Thigh_High_Sock_Pack",
+      "manifest": {
+        "author": "snowgrave",
+        "dependencies": [],
+        "description": "Adds new thigh high socks AND LEGWARMERS to the game that are far better than the yucky Subway-colored ones. Sorry.",
+        "name": "Thigh_High_Sock_Pack",
+        "version_number": "1.1.0",
+        "website_url": ""
+      },
+      "kinds": [
+        "game-data"
+      ],
+      "plugin": null,
+      "map_titles": [],
+      "has_build_stamp": true,
+      "entries": 12,
+      "uncompressed_bytes": 38601537,
+      "sample_files": [
+        ".reskate-studio-patch",
+        "icon.png",
+        "initfs_win32",
+        "layout.toc",
+        "manifest.json",
+        "README.md",
+        "Win32",
+        "Win32/configurations",
+        "Win32/configurations/layout",
+        "Win32/configurations/layout/initialinstallpackage",
+        "Win32/configurations/layout/initialinstallpackage/cas_01.cas",
+        "Win32/items.toc"
+      ]
+    }
+  ]
+}
