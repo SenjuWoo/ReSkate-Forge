@@ -12,6 +12,12 @@ from reskateforge import studio
 from reskateforge.mcp import TOOLS, dispatch
 
 
+# ReSkate Studio is not part of this repository. The three tests that read its
+# own files run where a copy sits in "ReSkate Studio/" and say so where it does not.
+needs_studio = unittest.skipUnless(studio.STUDIO_CLI.is_file() and studio.MAP_CONVERTER.is_file(),
+                                   "ReSkate Studio is not installed beside the Forge")
+
+
 class StudioTests(unittest.TestCase):
     def setUp(self) -> None:
         self.temp = tempfile.TemporaryDirectory()
@@ -30,11 +36,13 @@ class StudioTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.temp.cleanup()
 
+    @needs_studio
     def test_bundled_studio_present(self) -> None:
         info = studio.diagnostics()
         self.assertTrue(info["bundled_toolkit_complete"], info)
         self.assertTrue(studio.STUDIO_CLI.is_file())
 
+    @needs_studio
     def test_map_build_matches_actual_bundled_bat(self) -> None:
         bat = (studio.STUDIO / "Build Skate Map.bat").read_text(encoding="utf-8")
         self.assertIn('compile-map "%GAME%" "%BLEND%" "%PACKAGE%" --deploy', bat)
@@ -54,6 +62,7 @@ class StudioTests(unittest.TestCase):
                 studio.build_map(self.scene, self.game / "Inside", game=str(self.game), dry_run=True)
             self.assertEqual(self.scene.read_bytes(), b"BLENDER")
 
+    @needs_studio
     def test_blender_job_uses_real_bundled_flags(self) -> None:
         preview = studio.blender_job("blender-preflight", self.fbx, output=self.root / "preflight.json",
                                      blender=str(self.fake_blender), dry_run=True)
