@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased - 2026-11-25
+
+Documentation and CI only; the package is unchanged.
+
+- README rewritten: install steps for Windows and pip, a full command table, the MCP tool list including `forge_plan` and the inspectors, and terminal shots from real runs in `docs/presentation/`.
+- README and AGENTS.md no longer describe ReSkate Studio or a staged model as bundled in this repository. Both stay out of Git.
+- The map-compile and converter bridges are listed as implemented with no live run recorded yet; the headless character swap is listed as run on the maintainer's machine and not loaded in game, matching STATE.md.
+- `docs/icon.svg` and `docs/icon.png`: the RS tile that `new` draws for workspaces, as the repository mark.
+- CI: Dependabot for pip and GitHub Actions; `actions/checkout` and `actions/setup-python` moved to v7.
+
 ## 0.2.0 - 2026-11-12
 
 First public source release.

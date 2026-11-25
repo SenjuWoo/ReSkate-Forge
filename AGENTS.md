@@ -8,7 +8,7 @@ Turn a natural-language ReSkate mod idea into the furthest *verified* deliverabl
 
 ## Autonomous routing
 
-1. Run `Forge.cmd doctor` and `Forge.cmd plan "<user idea>"` on Windows (or `python -m reskateforge` from the repo root). **This is a self-contained private Forge:** ReSkate Studio, `reskate_cli.exe`, native libraries, Blender add-on and Studio converters are already bundled in `ReSkate Studio/`. Never send the user away to install a second copy of Studio.
+1. Run `Forge.cmd doctor` and `Forge.cmd plan "<user idea>"` on Windows (or `python -m reskateforge` from the repo root). **ReSkate Studio lives in `ReSkate Studio/` inside this folder** (with `reskate_cli.exe`, its native libraries, the Blender add-on and the Studio converters) once the operator has placed their own copy there. It is ignored by Git and never committed. If `doctor` finds it, use it; never send the user away to install a second copy of Studio.
 2. Route by the game-supported formats, not guesses:
    - Model/outfit swaps: `inspect-model`, private `stage-model`, `blender-preflight`, launch bundled `ReSkate Studio` with `launch-studio`, free donor import, rig/skin/material fit, Studio build, `adopt-studio`. Cosmetic Studio GUI controls are *not* available headlessly through a confirmed API yet; do not invent commands.
    - Maps: for FBX/GLB/GLTF/OBJ use `map-import INPUT --output OUTPUT.blend` (uses local Blender headless). ReSkate Studio's bundled Skate Map add-on supplies collision/grinds/spawns. `map-convert INPUT.blend --output FOLDER` invokes Studio's real `studio_map_import.py`. **`build-map INPUT.blend --output PACKAGE --game GAME` executes the bundled `reskate_cli.exe compile-map`**, confirmed by `ReSkate Studio/Build Skate Map.bat`. `--deploy` is opt-in. Adopt real compiled output; test in-game.
@@ -16,7 +16,7 @@ Turn a natural-language ReSkate mod idea into the furthest *verified* deliverabl
    - Plugin: `new --kind plugin`; Luau API 1 only; ask exactly required permissions; no DLL/EXE.
 3. For every project: `validate`, `release-prep`, `package`, examine errors and fix. Manually confirm in-game on the installed game, then publish via Thunderstore and verify install. The forge NEVER claims in-game tests it has not run.
 4. Check https://docs.reskate.dev/llms.txt for up-to-date docs (game/loader API evolves quickly); record compatibility observations.
-5. If Blender or game path discovery is incomplete, look at `Forge.cmd doctor`, `RESKATE_BLENDER`, `RESKATE_GAME`, or command `--blender`/`--game`. Studio was shown connected to `C:\Games\ReSkate` and Blender via Steam on Operator's machine. Both need to exist on the machine running the agent; they aren't included in the private ZIP.
+5. If Blender or game path discovery is incomplete, look at `Forge.cmd doctor`, `RESKATE_BLENDER`, `RESKATE_GAME`, or command `--blender`/`--game`. `doctor` also tries the usual default game folder and a Steam copy of Blender. The game and Blender must exist on the machine running the agent; neither is in this repository.
 
 ## Non-negotiable correctness
 
