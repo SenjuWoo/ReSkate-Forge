@@ -62,12 +62,14 @@ runs the CLI from this folder.
 **Any OS:**
 
 ```bash
-python -m pip install .     # adds the reskateforge command
+python -m pip install -e .  # adds the reskateforge command, run from this checkout
 reskateforge doctor
 ```
 
-From a checkout without installing, `python -m reskateforge <command>` is the
-same CLI. Set `RESKATE_OWNER` (or put your team name in
+Install it editable (`-e`) and keep the checkout: `ReSkate Studio/`, `tools/`
+and `local-config/` are found next to the package, so a plain copy into
+site-packages would lose them. From a checkout without installing,
+`python -m reskateforge <command>` is the same CLI. Set `RESKATE_OWNER` (or put your team name in
 `local-config/owner.txt`) to stop passing `--owner` each time.
 
 ## A short tour
@@ -75,6 +77,7 @@ same CLI. Set `RESKATE_OWNER` (or put your team name in
 ```text
 reskateforge doctor                                   # tools, Studio, Blender and game paths
 reskateforge plan "make a speed HUD plugin"           # route an idea to a pipeline
+reskateforge plan "Swap my skater with Kitana"
 reskateforge new Line_HUD --kind plugin --owner YourTeam --description "Shows the skater's speed"
 reskateforge validate workspaces/Line_HUD
 reskateforge package workspaces/Line_HUD              # zip in workspaces/Line_HUD/dist
@@ -140,23 +143,24 @@ Every compiler job writes an inspectable log next to its output
 
 Cosmetic donor fitting, skinning and the final cosmetic build go through the
 Studio UI. The forge can launch Studio and run the headless Blender stages, but
-it does not claim a finished whole-body swap until the game output has been
-checked.
+it cannot claim it completed a whole-body Kitana swap until the final game
+output is verified.
 
 ## Pipelines
 
 ### Cosmetic or model swap
 
 ```powershell
-reskateforge inspect-model "<path>\Character.zip" --output character-report.json
-reskateforge new My_Skater --kind cosmetic --owner YourTeam --description "A custom skater outfit"
-reskateforge stage-model "<path>\Character.zip" "workspaces\My_Skater\source\character"
+# Source model analysis and staging; the archive stays private
+reskateforge inspect-model "<path>\Kitana.zip" --output kitana-report.json
+reskateforge new Kitana_Skater --kind cosmetic --owner YourTeam --description "A custom Kitana-inspired skater outfit"
+reskateforge stage-model "<path>\Kitana.zip" "workspaces\Kitana_Skater\source\kitana"
 
 # After you import, fit and build in ReSkate Studio (BUILD & INSTALL):
-reskateforge adopt-studio workspaces\My_Skater --from "<Studio build output>"
-reskateforge validate workspaces\My_Skater
-reskateforge release-prep workspaces\My_Skater
-reskateforge package workspaces\My_Skater
+reskateforge adopt-studio workspaces\Kitana_Skater --from "<Studio build output>"
+reskateforge validate workspaces\Kitana_Skater
+reskateforge release-prep workspaces\Kitana_Skater
+reskateforge package workspaces\Kitana_Skater
 ```
 
 ### Custom map
@@ -196,7 +200,14 @@ works too:
 ```
 
 On macOS or Linux use `python3` instead of `py`. The server answers
-`initialize`, `tools/list`, `tools/call` and `ping`.
+`initialize`, `tools/list`, `tools/call` and `ping`. Client config schemas
+differ, so copy this command and its arguments into your app's own format.
+
+Then ask: **"Use ReSkateForge to import this map model, compile it through
+Studio's tools, test what you can and prepare a Thunderstore release."** An
+agent can run the compiler on Windows; the final in-game check still needs the
+game itself. Cosmetic swaps stay limited to the verified Blender stages and
+Studio's UI.
 
 | MCP tool | Runs |
 | --- | --- |
